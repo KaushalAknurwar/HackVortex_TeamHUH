@@ -8,8 +8,8 @@ const router: Router = express.Router();
 const port = process.env.PORT || 3001;
 
 // Twilio configuration
-const accountSid = 'AC0b077a09883015f99d299d3f6b6ec088';
-const authToken = '73e00921b89734c59507de03d8702110';
+const accountSid = 'YOUR_ACCOUNT_SID';
+const authToken = 'YOUR_AUTH_TOKEN';
 const client = twilio(accountSid, authToken);
 
 // Middleware
@@ -39,7 +39,7 @@ const crisisAlertHandler: RequestHandler = async (req, res) => {
 
     // Recipient numbers
     const recipients = [
-      '+918788293663'
+      'YOUR_NUMBER'
       
      
     ];
@@ -48,7 +48,7 @@ const crisisAlertHandler: RequestHandler = async (req, res) => {
     const smsPromises = recipients.map(to => 
       client.messages.create({
         body: emergencyMessage,
-        from: '+17753681889',
+        from: 'YOUR_TWILLIO_VIRTUAL_NUMBER',
         to
       })
     );
@@ -59,7 +59,7 @@ const crisisAlertHandler: RequestHandler = async (req, res) => {
     const whatsappPromises = recipients.map(to => 
       client.messages.create({
         body: emergencyMessage,
-        from: 'whatsapp:+14155238886',
+        from: 'YOUR_TWILLIO_VIRTUAL_NUMBER_WHATSAPP',
         to: `whatsapp:${to}`
       })
     );
@@ -95,8 +95,8 @@ const server = app.listen(port, () => {
   console.log(`Server running on port ${port}`);
   console.log('Twilio configuration:', {
     accountSid: accountSid.substring(0, 5) + '...',
-    fromNumber: '+17753681889',
-    toNumber: '+918788293663'
+    fromNumber: 'YOUR_TWILLIO_VIRTUAL_NUMBER',
+    toNumber: 'YOUR_NUMBER'
   });
 });
 
