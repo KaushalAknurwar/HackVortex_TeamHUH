@@ -67,7 +67,6 @@ Whether you're feeling overwhelmed or simply need someone to talk to, Zenith is 
 
 ## 📸 Screenshots
 
-> Add your screenshots in the `/assets/screenshots/` folder and link them here.
 
 | Feature        | Preview |
 |----------------|---------|
@@ -80,7 +79,6 @@ Whether you're feeling overwhelmed or simply need someone to talk to, Zenith is 
 
 ## 🎥 Demo Video
 
-> Upload your demo video or add the link below:
 
 📺 [Watch Demo Video](#)
 
