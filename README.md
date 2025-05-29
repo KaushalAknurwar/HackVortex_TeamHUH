@@ -1,194 +1,107 @@
-# 🌟 Zenith - Mental Health & Wellness Platform
+# 🌌 Zenith – AI-Powered Mental Wellness Companion
 
-A comprehensive mental health and wellness platform built with React, TypeScript, and modern web technologies. Zenith provides interactive tools, games, and resources to support mental well-being through a combination of therapeutic activities, mood tracking, and AI-powered assistance.
+> _"Because sometimes, all we need is someone who truly listens — even if it's AI."_
 
-## ✨ Features Overview
+---
 
-### 🎮 Interactive Wellness Games
+## 🚨 Problem Statement
 
-• **Breathing Game**  
-	◦ Interactive breathing exercise tool with visual guidance  
-	◦ Customizable breathing patterns and rhythms  
-	◦ Visual and audio cues for relaxation  
-	◦ Progress tracking and achievement system  
+Mental health challenges are on the rise, especially among students and young adults. However, stigma, a shortage of professional help, and a lack of accessible tools prevent many from seeking support when they need it most.
 
-• **Memory Match**  
-	◦ Cognitive training through card matching  
-	◦ Themed decks for varied experiences  
-	◦ Progressive difficulty levels  
-	◦ Focus enhancement exercises  
+**Zenith** addresses this crisis by offering a judgment-free, always-available, AI-powered wellness platform that brings together therapy, expression, and safety tools in a single digital space.
 
+---
 
-• **Mindful Maze**  
-	◦ Meditation-focused navigation game  
-	◦ Breathing checkpoints for mindfulness  
-	◦ Calming visual and audio elements  
-	◦ Achievement-based progression  
+## 🧠 Approach & Solution
 
-• **Calming Puzzle**  
-	◦ Therapeutic puzzle-solving experience  
-	◦ Customizable difficulty settings  
-	◦ Soothing imagery and animations  
-	◦ Stress relief tracking  
+Zenith is designed to be a holistic, AI-enhanced companion that encourages self-expression, emotional regulation, and real-time support. It leverages cutting-edge NLP and generative models to simulate therapeutic interactions and empower users to process their emotions creatively and safely.
 
-• **Punching Bag**  
-	◦ Virtual stress relief mechanism  
-	◦ Haptic feedback integration  
-	◦ Dynamic sound effects  
-	◦ Tension release monitoring  
+Whether you're feeling overwhelmed or simply need someone to talk to, Zenith is there — with empathy, privacy, and zero judgment.
 
-### 🎨 Creative Expression Tools
+---
 
-• **Satrang AI Art Therapy**  
-	◦ Emotional description to artwork conversion  
-	◦ State-of-the-art AI image generation  
-	◦ Therapeutic creative expression  
-	◦ Integration with mood tracking  
-	◦ Journal entry capabilities
+## ✨ Features
 
-• **Emoji Garden**  
-	◦ Virtual emotional growth tracking
-	◦ Interactive emoji flower planting
-	◦ Visual emotional journey mapping
-	◦ Progress visualization
+### 🗣️ Sahayak – Conversational AI Therapist
+- Real-time emotional conversations through GPT-4.
+- Asks personalized, comforting questions.
+- Feels like talking to a supportive friend or therapist.
 
-### 📝 Mood Tracking & Journaling
+### 🚨 Asha – Emergency SOS Alerts
+- One-tap SOS button.
+- Sends real-time location and distress message via WhatsApp using Twilio API.
+- Helps notify trusted contacts in critical situations.
 
-• **Mood Calendar**
-	◦ Daily emotion tracking
-	◦ Customizable mood categories
-	◦ Pattern recognition analytics
-	◦ Monthly/yearly overviews
-	◦ Statistical mood analysis
+### 🎨 Satrang – AI Art Therapy
+- Translates emotional prompts into AI-generated art.
+- Acts as a creative outlet for processing complex feelings.
+- Built using DeepAI’s image generation API.
 
-• **Multi-Modal Journaling**
-	◦ Rich text formatting
-	◦ Voice recording with emotion detection
-	◦ Video entries with expression analysis
-	◦ AI-powered emotion tagging
-	◦ Privacy controls
+### 📅 Mood Calendar
+- Tracks and visualizes mood entries.
+- Helps recognize behavioral patterns.
+- Encourages emotional consistency and self-check-ins.
 
-### 💬 Mental Health Support
+### 🪴 Gratitude Garden & 🥊 Punching Bag
+- Gamified mood tools: 
+  - Gratitude entries grow a digital garden.
+  - The Punching Bag helps with safe emotional release.
+- Makes mood regulation fun, visual, and engaging.
 
-• **Asha Chatbot**
-	◦ 24/7 AI mental health companion
-	◦ Crisis detection algorithms
-	◦ Personalized coping strategies
-	◦ Progress monitoring
-	◦ Resource recommendations
+### 🔒 Privacy-Centric Design
+- No personal conversations stored.
+- Encryption ensures privacy of expression.
+- Users stay anonymous unless they opt for SOS alerts.
 
-• **Emergency Services**
-	◦ Quick-access crisis helplines
-	◦ Location-aware emergency support
-	◦ Custom emergency contacts
-	◦ One-touch alert system
+---
 
-• **Sahayak Therapy Platform**
-	◦ Professional therapist directory
-	◦ Appointment management
-	◦ Secure video consultations
-	◦ Session history tracking
-	◦ Encrypted messaging
+## 🛠 Tech Stack
 
-### 👤 User Experience
+- **Frontend**: React, TailwindCSS, Vite
+- **Backend**: Node.js, Express
+- **AI/NLP**: Gemini 2.5 pro, Stable Diffusion
+- **Alerts**: Twilio API
+- **Storage**: Supabase (for mood calendar entries)
 
-• **Profile System**
-	◦ Custom avatar creation
-	◦ Theme personalization
-	◦ Goal setting & tracking
-	◦ Privacy management
-	◦ Data control center
+---
 
-• **Analytics Dashboard**
-	◦ Comprehensive wellness metrics
-	◦ Progress visualization
-	◦ Custom milestone tracking
-	◦ Exportable reports
-	◦ Trend analysis
+## 📸 Screenshots
 
-## 🛠️ Technical Stack
+> Add your screenshots in the `/assets/screenshots/` folder and link them here.
 
-### Frontend
-• **Core Technologies**
-	◦ React + TypeScript
-	◦ TailwindCSS + Shadcn/ui
-	◦ Framer Motion animations
+| Feature        | Preview |
+|----------------|---------|
+| Home Page      | ![Home](./assets/screenshots/home.png) |
+| Sahayak Chat   | ![Chat](./assets/screenshots/chat.png) |
+| Satrang Art    | ![Art](./assets/screenshots/art.png) |
+| Mood Calendar  | ![Calendar](./assets/screenshots/calendar.png) |
 
-### Backend
-• **Infrastructure**
-	◦ Supabase Authentication
-	◦ Real-time database
-	◦ Secure file storage
-	◦ Row-level security
+---
 
-### AI Integration
-• **Technologies**
-	◦ Google Generative AI
-	◦ Natural Language Processing
-	◦ Computer Vision
-	◦ Emotion Analysis
+## 🎥 Demo Video
 
+> Upload your demo video or add the link below:
 
-## 📦 Setup Guide
+📺 [Watch Demo Video](#)
 
-### Prerequisites
-• Node.js (v18+)  
-• npm or yarn  
-• Git
+---
 
-### Installation Steps
+## 🚀 Run Instructions
 
-1️⃣ Clone Repository
+Clone the repository and run the following commands in separate terminals:
+
+### 🔧 Backend (Satrang AI Art API)
 ```bash
-git clone <repository-url>
-cd zenith
+cd src/api
+node server.js
 ```
-
-2️⃣ Install Dependencies
+### 🔧 Twillio (Whatsapp SOS Alerts)
+```bash
+npm run server
+```
+### 🔧 Frontend 
 ```bash
 npm install
-```
-
-3️⃣ Configure Environment
-```bash
-cp .env.example .env
-```
-
-4️⃣ Launch Development Server
-```bash
 npm run dev
 ```
-
-## 📜 Available Commands
-
-• `npm run dev` → Development server  
-• `npm run build` → Production build  
-• `npm run build:dev` → Development build  
-• `npm run lint` → Code linting  
-• `npm run preview` → Build preview  
-• `npm run server` → Production server  
-• `npm start` → Build and serve
-
-## 📁 Project Architecture
-
-```
-src/
-├── api/          • API integrations
-├── components/   • React components
-├── contexts/     • State contexts
-├── hooks/        • Custom hooks
-├── integrations/ • Third-party services
-├── lib/          • Utilities
-├── pages/        • Route components
-├── services/     • Business logic
-└── types/        • Type definitions
-```
-
-## 🤝 Contribution Guide
-
-1️⃣ Fork repository  
-2️⃣ Create feature branch (`git checkout -b feature/amazing-feature`)  
-3️⃣ Commit changes (`git commit -m 'Add amazing feature'`)  
-4️⃣ Push to branch (`git push origin feature/amazing-feature`)  
-5️⃣ Open Pull Request
 
