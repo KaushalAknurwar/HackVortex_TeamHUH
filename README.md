@@ -23,7 +23,7 @@ Whether you're feeling overwhelmed or simply need someone to talk to, Zenith is 
 ## ✨ Features
 
 ### 🗣️ Sahayak – Conversational AI Therapist
-- Real-time emotional conversations through GPT-4.
+- Real-time emotional conversations through HeyGen.
 - Asks personalized, comforting questions.
 - Feels like talking to a supportive friend or therapist.
 
