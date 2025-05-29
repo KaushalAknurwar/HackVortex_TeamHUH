@@ -1,6 +1,6 @@
 # 🌌 Zenith – AI-Powered Mental Wellness Companion
 
-> _"Because sometimes, all we need is someone who truly listens — even if it's AI."_
+> _"Because sometimes, all we need is someone who truly listens — even if its AI."_
 
 ---
 
