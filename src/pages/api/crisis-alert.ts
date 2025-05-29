@@ -1,8 +1,8 @@
 import type { NextApiRequest, NextApiResponse } from 'next';
 import twilio from 'twilio';
 
-const accountSid = 'AC0b077a09883015f99d299d3f6b6ec088';
-const authToken = '73e00921b89734c59507de03d8702110';
+const accountSid = 'YOUR_ACCOUNT_SID';
+const authToken = 'YOUR_AUTH_TOKEN';
 const client = twilio(accountSid, authToken);
 
 export default async function handler(
@@ -24,14 +24,14 @@ export default async function handler(
 
     // Recipient numbers
     const recipients = [
-      '+918788293663'
+      '+YOUR_NUMBER'
     ];
 
     // Send SMS to all recipients
     const smsPromises = recipients.map(to => 
       client.messages.create({
         body: emergencyMessage,
-        from: '+17753681889',
+        from: 'YOUR_TWILLIO_VIRTUAL_NUMBER',
         to
       })
     );
@@ -41,7 +41,7 @@ export default async function handler(
     const whatsappPromises = recipients.map(to => 
       client.messages.create({
         body: emergencyMessage,
-        from: 'whatsapp:+14155238886',
+        from: 'whatsapp:YOUR_TWILLIO_VIRTUAL_NUMBER',
         to: `whatsapp:${to}`
       })
     );
