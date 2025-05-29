@@ -65,24 +65,6 @@ Whether you're feeling overwhelmed or simply need someone to talk to, Zenith is 
 
 ---
 
-## 📸 Screenshots
-
-
-| Feature        | Preview |
-|----------------|---------|
-| Home Page      | ![Home](./assets/screenshots/home.png) |
-| Sahayak Chat   | ![Chat](./assets/screenshots/chat.png) |
-| Satrang Art    | ![Art](./assets/screenshots/art.png) |
-| Mood Calendar  | ![Calendar](./assets/screenshots/calendar.png) |
-
----
-
-## 🎥 Demo Video
-
-
-📺 [Watch Demo Video](#)
-
----
 
 ## 🚀 Run Instructions
 
